@@ -1,6 +1,7 @@
 import wave
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns; sns.set()
 
 wf = wave.open('../outputs/out.wav', 'rb')
 
